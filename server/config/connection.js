@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1/due', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://https://budget-tracker-final-project.herokuapp.com/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
